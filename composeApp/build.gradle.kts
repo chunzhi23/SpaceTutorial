@@ -69,6 +69,7 @@ android {
     }
     dependencies {
         debugImplementation(compose.uiTooling)
+        implementation("androidx.activity:activity-compose:1.8.0")
     }
 }
 
